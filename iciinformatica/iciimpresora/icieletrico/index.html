@@ -1,26 +1,31 @@
 <!DOCTYPE html>
-<html lang="en" >
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <title>IA ICI</title>
   <link rel="stylesheet" href="./style.css">
-
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+    }
+    img {
+      width: 100vw;
+      height: 100vh;
+    }
+  </style>
 </head>
 <body>
-
-<img src="ici eletrico.jpg" alt="">
-
+  <img src="ici eletrico.jpg" alt="">
   <script>
-  document.addEventListener("DOMContentLoaded", function(event) {
+    document.addEventListener("DOMContentLoaded", function(event) {
       alterarPagina(10000);
-  });
-
-  function alterarPagina(timer) {
+    });
+    function alterarPagina(timer) {
       setTimeout(() => {
-          window.location.replace('icipedreiro/index.html');
+        window.location.replace('icipedreiro/index.html');
       }, timer);
-  }
-</script>
-  
+    }
+  </script>
 </body>
 </html>
